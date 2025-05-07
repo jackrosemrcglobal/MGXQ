@@ -1,0 +1,19 @@
+// Update renderDashboard to also hide the Home view
+function renderDashboard() {
+  document.getElementById('homeView').style.display = "none";
+  document.getElementById('dashboardView').style.display = "";
+  document.getElementById('sectionView').style.display = "none";
+}
+
+// Update showSection to hide the Home view when switching sections
+function showSection(sectionKey) {
+  currentSection = sectionKey;
+  document.getElementById('homeView').style.display = "none";
+  document.getElementById('sectionTitle').textContent = sections[sectionKey].displayName;
+  document.getElementById('dashboardView').style.display = "none";
+  document.getElementById('sectionView').style.display = "";
+  renderRecordsTable();
+}
+
+// Add event listener for the Home button in the header
+document.getElementById('homeBtn').addEventListener('click', showHome);
