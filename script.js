@@ -1,5 +1,5 @@
 // Main script file with form functionality and table initialization
-'import { TextHighlighter } from 'textHighlighter.js';
+import { TextHighlighter } from 'textHighlighter.js';
 import { FormInitializer } from 'formInitializer.js';
 import { FormStorage } from 'formStorage.js';
 import { SectionVisibilityManager } from 'sectionVisibilityManager.js';
