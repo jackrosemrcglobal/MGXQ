@@ -1,10 +1,10 @@
 // Main script file with form functionality and table initialization
-import { TextHighlighter } from './textHighlighter.js';
-import { FormInitializer } from './formInitializer.js';
-import { FormStorage } from './formStorage.js';
-import { SectionVisibilityManager } from './sectionVisibilityManager.js';
-import { PrintManager } from './printManager.js';
-import { DocumentExporter } from './documentExporter.js';
+import { TextHighlighter } from 'textHighlighter.js';
+import { FormInitializer } from 'formInitializer.js';
+import { FormStorage } from 'formStorage.js';
+import { SectionVisibilityManager } from 'sectionVisibilityManager.js';
+import { PrintManager } from 'printManager.js';
+import { DocumentExporter } from 'documentExporter.js';
 
 // Theme definitions
 const themes = {

@@ -18,4 +18,4 @@
 // removed createISO9001Section() {}
 
 // Re-export all sections from the registry
-export { FormSections } from './formSectionRegistry.js';
+export { FormSections } from 'formSectionRegistry.js';

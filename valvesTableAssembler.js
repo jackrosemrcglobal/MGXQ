@@ -1,10 +1,10 @@
 // Assembles complete valve inspection table from individual sections
-import { ValvesInspectionTable } from './valvesInspectionTable.js';
+import { ValvesInspectionTable } from 'valvesInspectionTable.js';
 // Import other valve table sections (coating, heat codes, visual dimensions, documentation)
-import { ValvesCoatingTable } from './valvesCoatingTable.js';
-import { ValvesHeatCodesTable } from './valvesHeatCodesTable.js';
-import { ValvesVisualDimensionsTable } from './valvesVisualDimensionsTable.js';
-import { ValvesDocumentationTable } from './valvesDocumentationTable.js';
+import { ValvesCoatingTable } from 'valvesCoatingTable.js';
+import { ValvesHeatCodesTable } from 'valvesHeatCodesTable.js';
+import { ValvesVisualDimensionsTable } from 'valvesVisualDimensionsTable.js';
+import { ValvesDocumentationTable } from 'valvesDocumentationTable.js';
 
 export const ValvesTableAssembler = {
     

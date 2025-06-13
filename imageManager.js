@@ -1,5 +1,5 @@
 // Manages image uploads, previews, comments, and persistence in IndexedDB.
-import { DBManager } from './dbManager.js';
+import { DBManager } from 'dbManager.js';
 import JSZip from 'jszip';
 
 export const ImageManager = {

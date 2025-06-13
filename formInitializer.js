@@ -1,19 +1,19 @@
 // Form initialization and setup functionality
-import { TableTemplates } from './templates.js';
-import { InspectionTables } from './inspectionTables.js';
-import { ValvesTableAssembler } from './valvesTableAssembler.js';
-import { DocumentTables } from './documentTables.js';
-import { ISO9001Tables } from './iso9001Tables.js';
-import { FormBuilder } from './formBuilder.js';
-import { CustomObjectBuilder } from './customObjectBuilder.js';
-import { InspectionBuilder } from './customObjects/inspectionBuilder.js';
-import { SignaturesSection } from './sections/signaturesSection.js';
-import { CreateObjectsSection } from './sections/createObjectsSection.js';
-import { FormStorage } from './formStorage.js';
-import { TimeBreakdown } from './timeBreakdown.js';
-import { ImageManager } from './imageManager.js';
-import { ExtendedAuditTable } from './extendedAuditTable.js';
-import { ApprovedManufacturersList } from './approvedManufacturersList.js';
+import { TableTemplates } from 'templates.js';
+import { InspectionTables } from 'inspectionTables.js';
+import { ValvesTableAssembler } from 'valvesTableAssembler.js';
+import { DocumentTables } from 'documentTables.js';
+import { ISO9001Tables } from 'iso9001Tables.js';
+import { FormBuilder } from 'formBuilder.js';
+import { CustomObjectBuilder } from 'customObjectBuilder.js';
+import { InspectionBuilder } from 'inspectionBuilder.js';
+import { SignaturesSection } from 'signaturesSection.js';
+import { CreateObjectsSection } from 'createObjectsSection.js';
+import { FormStorage } from 'formStorage.js';
+import { TimeBreakdown } from 'timeBreakdown.js';
+import { ImageManager } from 'imageManager.js';
+import { ExtendedAuditTable } from 'extendedAuditTable.js';
+import { ApprovedManufacturersList } from 'approvedManufacturersList.js';
 
 export const FormInitializer = {
     

@@ -1,5 +1,5 @@
 // Table template generators for the inspection form
-import { InspectionResultsData } from './inspectionResultsData.js';
+import { InspectionResultsData } from 'inspectionResultsData.js';
 
 export const TableTemplates = {
     

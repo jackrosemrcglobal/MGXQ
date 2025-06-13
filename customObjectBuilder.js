@@ -1,8 +1,8 @@
 // Main custom object builder - refactored to use smaller modules
-import { ObjectManager } from './customObjects/objectManager.js';
-import { FieldBuilder } from './customObjects/fieldBuilder.js';
-import { SectionBuilder } from './customObjects/sectionBuilder.js';
-import { CustomUI } from './customObjects/customUI.js';
+import { ObjectManager } from 'objectManager.js';
+import { FieldBuilder } from 'fieldBuilder.js';
+import { SectionBuilder } from 'sectionBuilder.js';
+import { CustomUI } from 'customUI.js';
 
 export const CustomObjectBuilder = {
     currentObjectId: null,

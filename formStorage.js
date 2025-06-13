@@ -1,5 +1,5 @@
 // Form storage functionality for saving/loading form data and import/export
-import { DBManager } from './dbManager.js';
+import { DBManager } from 'dbManager.js';
 
 export const FormStorage = {
     STORAGE_KEY: 'inspection_report_form_data',

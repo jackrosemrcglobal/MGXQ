@@ -1,23 +1,23 @@
 // Central registry for all form sections
-import { BasicInfoSection } from './sections/basicInfoSection.js';
-import { ContactInfoSection } from './sections/contactInfoSection.js';
-import { OrderInfoSection } from './sections/orderInfoSection.js';
-import { PurposeSummarySection } from './sections/purposeSummarySection.js';
-import { InspectionResultsSection } from './sections/inspectionResultsSection.js';
-import { CertificatesSection } from './sections/certificatesSection.js';
-import { AuditAssessmentSection } from './sections/auditAssessmentSection.js';
-import { AdditionalDocsSection } from './sections/additionalDocsSection.js';
-import { CalibrationSection } from './sections/calibrationSection.js';
-import { ContainerSections } from './sections/containerSections.js';
-import { SignaturesSection } from './sections/signaturesSection.js';
-import { CreateObjectsSection } from './sections/createObjectsSection.js';
-import { ImageAttachmentsSection } from './sections/imageAttachmentsSection.js';
-import { ExtendedAuditSection } from './sections/extendedAuditSection.js';
-import { ApprovedManufacturersSection } from './sections/approvedManufacturersSection.js';
-import { ManufacturerAssessmentSection } from './sections/manufacturerAssessmentSection.js';
-import { ManufacturerAssessmentSummarySection } from './sections/manufacturerAssessmentSummarySection.js';
-import { ManufacturerAssessmentISO4Section } from './sections/manufacturerAssessmentISO4Section.js';
-import { ManufacturerAssessmentISO5Section } from './sections/manufacturerAssessmentISO5Section.js';
+import { BasicInfoSection } from 'basicInfoSection.js';
+import { ContactInfoSection } from 'contactInfoSection.js';
+import { OrderInfoSection } from 'orderInfoSection.js';
+import { PurposeSummarySection } from 'purposeSummarySection.js';
+import { InspectionResultsSection } from 'inspectionResultsSection.js';
+import { CertificatesSection } from 'certificatesSection.js';
+import { AuditAssessmentSection } from 'auditAssessmentSection.js';
+import { AdditionalDocsSection } from 'additionalDocsSection.js';
+import { CalibrationSection } from 'calibrationSection.js';
+import { ContainerSections } from 'containerSections.js';
+import { SignaturesSection } from 'signaturesSection.js';
+import { CreateObjectsSection } from 'createObjectsSection.js';
+import { ImageAttachmentsSection } from 'imageAttachmentsSection.js';
+import { ExtendedAuditSection } from 'extendedAuditSection.js';
+import { ApprovedManufacturersSection } from 'approvedManufacturersSection.js';
+import { ManufacturerAssessmentSection } from 'manufacturerAssessmentSection.js';
+import { ManufacturerAssessmentSummarySection } from 'manufacturerAssessmentSummarySection.js';
+import { ManufacturerAssessmentISO4Section } from 'manufacturerAssessmentISO4Section.js';
+import { ManufacturerAssessmentISO5Section } from 'manufacturerAssessmentISO5Section.js';
 
 export const FormSections = {
     createBasicInformationSection: BasicInfoSection.create,

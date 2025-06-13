@@ -1,5 +1,5 @@
 // Main form builder that assembles all sections
-import { FormSections } from './formSectionRegistry.js';
+import { FormSections } from 'formSectionRegistry.js';
 
 export const FormBuilder = {
     
